@@ -2415,7 +2415,7 @@ input, select, textarea {
 			}
 
 	.image1 img {
-		width: 250px;
+		width: 265px;
 		height: 200px;
 		
 	}
@@ -2639,6 +2639,7 @@ input, select, textarea {
 
 	section.special, article.special {
 		text-align: center;
+		justify-content: space-between;
 	}
 
 	header.major {
@@ -2832,6 +2833,17 @@ input, select, textarea {
 			.features li > :last-child {
 				margin-bottom: 0;
 			}
+			
+			.features li > div {
+				font-size: 18px;
+				color: #e37682;
+			}
+
+			.features li > div > a {
+				font-size: 18px;
+				color: #e37682;
+			}
+
 
 		@media screen and (max-width: 980px) {
 
@@ -3788,3 +3800,9 @@ input, select, textarea {
 			}
 
 		}
+
+i {
+	font-size: 50px;
+	color: #e37682;
+}
+
